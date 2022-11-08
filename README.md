@@ -24,5 +24,7 @@ The idea is that Mastodon wouldn't know the difference.
 
 ## How to develop
 
-1. Duplicate the `original` folder and name it `home`
-2. Run the script `sh purge-headers.sh`
+1. Duplicate the `original` files to a new `home` folder:
+   1. `cp -R original home`
+2. Run the script
+   1. `sh purge-headers.sh`
