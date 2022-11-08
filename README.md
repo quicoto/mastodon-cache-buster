@@ -1,4 +1,6 @@
-# mastodon-cache-buster
+# Mastodon Cache buster
+
+Tested on Mastodon 3.5.3
 
 It trims downs the undeletable cache assets for Avatars and Headers.
 
