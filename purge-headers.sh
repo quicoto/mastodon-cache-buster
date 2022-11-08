@@ -1,5 +1,30 @@
 #/bin/bash
+for file in `find ./test -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png -o -iname \*.webp \) -type f`; do
+  rm "$file"
 
-for i in `find ./test -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png \) -type f`; do
-    echo "$i"
+  if [ "${file: -5}" == ".jpeg" ]
+  then
+    echo "This is a JPEG! $file"
+    SOURCE="pixel.jpeg"
+  fi
+
+  if [ "${file: -4}" == ".jpg" ]
+  then
+    echo "This is a JPG! $file"
+    SOURCE="pixel.jpg"
+  fi
+
+  if [ "${file: -4}" == ".png" ]
+  then
+    echo "This is a PNG! $file"
+    SOURCE="pixel.png"
+  fi
+
+  if [ "${file: -5}" == ".webp" ]
+  then
+    echo "This is a webP! $file"
+    SOURCE="pixel.webp"
+  fi
+
+  cp "$SOURCE" "$file"
 done
