@@ -26,6 +26,13 @@ The idea is that Mastodon wouldn't know the difference.
 
 `/home/mastodon/live/public/system/cache/accounts/headers`
 
+## How to run
+
+1. Chang the permissions of the script
+   1. `chmod u+x purge-headers.sh`
+2. Run it:
+   1. `./purge-headers.sh`
+
 ## How to develop
 
 1. Duplicate the `original` files to a new `home` folder:
