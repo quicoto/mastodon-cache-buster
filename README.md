@@ -19,3 +19,8 @@ The script here is an attempt to lower the disk usage by replacing all the asset
 No files will be removed, just replaced with a smaller version with the same name.
 
 The idea is that Mastodon wouldn't know the difference.
+
+## How to develop
+
+1. Duplicate the `original` folder and name it `home`
+2. Run the script `sh purge-headers.sh`
