@@ -1,5 +1,5 @@
-#!/bin/bash
+#/bin/bash
 
-for file in ./test/* ./test/**/* ./test/**/**/* ; do
-  echo ${file}
-done;
+for i in `find ./test -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png \) -type f`; do
+    echo "$i"
+done
