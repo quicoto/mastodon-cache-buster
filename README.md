@@ -22,6 +22,10 @@ No files will be removed, just replaced with a smaller version with the same nam
 
 The idea is that Mastodon wouldn't know the difference.
 
+## Paths
+
+`/home/mastodon/live/public/system/cache/accounts/headers`
+
 ## How to develop
 
 1. Duplicate the `original` files to a new `home` folder:

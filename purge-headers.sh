@@ -1,5 +1,5 @@
 #/bin/bash
-for file in `find ./home/mastodon/live/public/system/cache/accounts/headers -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png -o -iname \*.webp \) -type f`; do
+for file in `find /home/mastodon/live/public/system/cache/accounts/headers -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png -o -iname \*.webp \) -type f`; do
   rm "$file"
 
   if [ "${file: -5}" == ".jpeg" ]
