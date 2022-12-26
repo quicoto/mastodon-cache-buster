@@ -28,7 +28,7 @@ The idea is that Mastodon wouldn't know the difference.
 
 ## How to run
 
-1. Chang the permissions of the script
+1. Change the permissions of the script
    1. `chmod u+x purge-headers.sh`
 2. Run it:
    1. `./purge-headers.sh`
