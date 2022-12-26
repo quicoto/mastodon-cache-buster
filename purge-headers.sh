@@ -27,5 +27,5 @@ for file in $(find /home/mastodon/live/public/system/cache/accounts/headers -typ
     SOURCE="pixel.webp"
   fi
 
-  cp "$SOURCE" "$file"
+  ln "$SOURCE" "$file"
 done
