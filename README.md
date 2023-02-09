@@ -1,3 +1,9 @@
+⚠️ With Mastodn 4.1.0 you can now delete remote HEADERS and AVATARS with *tootctl CLI*, you should use that.
+
+➡️ https://docs.joinmastodon.org/admin/tootctl/
+
+<hr>
+
 # Mastodon Cache buster
 
 Tested on Mastodon 3.5.3
